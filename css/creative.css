@@ -334,7 +334,7 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 /**********************************************into the woods**************************************************/
-/*.homepage-hero-module {
+.homepage-hero-module {
     border-right: none;
     border-left: none;
     position: relative;
@@ -362,7 +362,7 @@ header.masthead p {
     position: absolute;
 }
 .video-container .filter {
-    z-index: 100;
+    z-index: 800;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -374,4 +374,4 @@ header.masthead p {
 }
 .video-container video.fillWidth {
     width: 100%;
-}*/
+}
