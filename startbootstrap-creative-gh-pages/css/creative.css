@@ -51,11 +51,11 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 3rem 0;
 }
 
 .section-heading {
-  margin-top: 0;
+  margin-top: 70px;
 }
 
 ::-moz-selection {
