@@ -19,6 +19,7 @@ hr.light {
 }
 
 a {
+
   color: #F05F40;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -40,6 +41,8 @@ h6 {
 
 .bg-primary {
   background-color: #F05F40 !important;
+
+ 
 }
 
 .bg-dark {
@@ -51,11 +54,11 @@ h6 {
 }
 
 section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 .section-heading {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 ::-moz-selection {
@@ -367,7 +370,7 @@ span{
     position: absolute;
 }
 .video-container .filter {
-    z-index: 800;
+    z-index: 2000;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
