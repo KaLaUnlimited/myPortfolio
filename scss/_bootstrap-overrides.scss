@@ -2,6 +2,10 @@
 .text-primary {
   color: $primary !important;
 }
+.contact-icons{
+  display: flex;
+  justify-content: space-around;
+}
 
 .btn {
   font-weight: 700;
