@@ -381,7 +381,7 @@ span{
     background: #000;
 }
 .video-container .poster img {
-    width: 100%;
+max-width: 100%;
     bottom: 0;
     position: absolute;
 }
@@ -389,7 +389,8 @@ span{
     z-index: 2000;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
-    width: 100%;
+    max-width: 100%;
+  
 }
 .video-container video {
     position: absolute;
@@ -397,7 +398,7 @@ span{
     bottom: 0;
 }
 .video-container video.fillWidth {
-   width: 100%;
+   max-width: 100%;
 }
 
 .contact-icons{
@@ -405,6 +406,47 @@ span{
   justify-content: space-around;
 }
 @media screen and (max-width: 480px) {
+
+  /*************************************** NAV BAR******************************************** */
+  #mainNav {
+    border-color: azure;
+    background-color: black;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #F05F40;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #F05F40;
+  }
   .overlay{
     padding:0;
     margin: 0 auto;
